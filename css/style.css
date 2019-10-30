@@ -1,0 +1,67 @@
+body{
+    magin:0;
+    padding:0;
+    position:relative;
+}
+
+#button{
+    border:none;
+    padding:6px 0 6px 0;
+    border-radius:8px;
+    background:#d34836;
+    font:bold 13px Arial;
+    color:#fff;
+    display:block;
+    margin: auto;
+    width:10%;
+    font-size:20px;
+    text-decoration:none;
+    text-align:center;
+    margin-top:20%;
+}
+#un, #deux, #trois, #quatre{
+    width:130px;
+    height:130px;
+    position:fixed;
+    text-align:center;
+}
+#un{
+    border:5px solid red;
+    background-color:magenta;
+    font-family:verdana;
+    color:#000;
+    left: 0px;
+    right:auto;
+    bottom:auto;
+    top: 0px;
+}
+#deux{
+    border:5px solid cyan;
+    background-color:blue;
+    font-family:calibri;
+    color:yellow;
+    left:auto;
+    right:0px;
+    bottom:auto;
+    top:0px;
+}
+#trois{
+    border:5px solid blue;
+    background-color:cyan;
+    font-family:arial;
+    color:green;
+    left:auto;
+    right:0px;
+    bottom:0px;
+    top:auto;
+}
+#quatre{
+    background-color:red;
+    border:5px solid magenta;
+    font-family:courier;
+    color:#fff;
+    left:0px;
+    right:auto;
+    bottom:0px;
+    top:auto;
+}
